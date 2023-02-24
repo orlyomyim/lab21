@@ -21,7 +21,7 @@ int main(){
 		if(player_action == 'E') break; 
 		
 		int temp = rand()%3;
-		if(temp <= 1) monster_action = 'A';
+		if(temp <= 1) monster_action = 'A';																															
 		else if(temp == 2) monster_action = 'G';
 		
 		if(player_action == 'G') hero.guard();
